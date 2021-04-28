@@ -8,6 +8,8 @@ os: linux
 git:
   quiet: true
 language: java
+jdk:
+  - oraclejdk16
 #services: xvfb
 script:
   - mvn compile
