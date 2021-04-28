@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Zap4ick/gifts-collector.svg?branch=master)](https://travis-ci.org/Zap4ick/gifts-collector)
+[![Build Status](https://travis-ci.org/Zap4ick/kinopark-kinopoisk.svg?branch=master)](https://travis-ci.org/Zap4ick/gifts-collector)
 # Kinopark-kinopoisk
 
 This is a simple script to transfer films ratings from belarusian films fan site  <b>kinopark</b> to russian one <b>kinopoisk</b>. The app searches by russian title so there might be some errors. If fails pray to the machine god.
