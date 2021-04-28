@@ -1,0 +1,16 @@
+dist: xenial
+os: linux
+#addons:
+#  artifacts: true
+#  chrome: stable
+#before_install:
+#  - google-chrome-stable --headless --disable-gpu
+git:
+  quiet: true
+language: java
+#services: xvfb
+script:
+  - mvn compile
+email:
+  recipients:
+    zap4ick@gmail
