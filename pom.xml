@@ -61,32 +61,6 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.3.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>
-                                steamgifts.App
-                            </mainClass>
-                        </manifest>
-                    </archive>
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
-
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <source>16</source>
@@ -122,7 +96,7 @@
                             <manifest>
                                 <!--                <addClasspath>true</addClasspath>-->
                                 <!--                <classpathPrefix>libs/</classpathPrefix>-->
-                                <mainClass>steamgifts.App</mainClass>
+                                <mainClass>kino.App</mainClass>
                             </manifest>
                         </archive>
                     </configuration>
@@ -149,7 +123,7 @@
                     <artifactId>exec-maven-plugin</artifactId>
                     <version>3.0.0</version>
                     <configuration>
-                        <mainClass>steamgifts.App</mainClass>
+                        <mainClass>kino.App</mainClass>
                     </configuration>
                 </plugin>
             </plugins>

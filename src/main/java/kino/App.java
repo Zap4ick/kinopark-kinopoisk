@@ -1,13 +1,13 @@
-package steamgifts;
+package kino;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.Cookie;
-import steamgifts.pages.KinoparkMyFilmsPage;
-import steamgifts.pages.KinopoiskErrorPage;
-import steamgifts.pages.KinopoiskPage;
+import kino.pages.KinoparkMyFilmsPage;
+import kino.pages.KinopoiskErrorPage;
+import kino.pages.KinopoiskPage;
 
 import java.io.IOException;
 import java.util.List;

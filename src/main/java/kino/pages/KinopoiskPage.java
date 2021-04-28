@@ -1,4 +1,4 @@
-package steamgifts.pages;
+package kino.pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;

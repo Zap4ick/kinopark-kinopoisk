@@ -1,10 +1,10 @@
-package steamgifts.pages;
+package kino.pages;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import steamgifts.Film;
+import kino.Film;
 
 import java.util.ArrayList;
 import java.util.Arrays;
